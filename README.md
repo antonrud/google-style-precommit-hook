@@ -9,7 +9,7 @@ Add to your **.pre-commit-hooks.yaml** file:
 ```
 repos:
 - repo: https://github.com/antonrud/google-style-precommit-hook
-  sha: b7e9e7fcba4a5aea463e72fe9964c14877bd8130
+  rev: ed51ff6120772ad9d234cc7ab3331e32e5231a2c
   hooks:
     - id: google-style-java
 ```
@@ -18,3 +18,7 @@ repos:
 directory so that it doesn't need to be re-downloaded each time.  You will
 probably want to add `.cache/` to the `.gitignore` file of the project which
 uses this hook.
+
+
+### Acknowledgement
+This project is originated from repository: [maltzj/google-style-precommit-hook](https://github.com/maltzj/google-style-precommit-hook) *(not being actively maintained)*
