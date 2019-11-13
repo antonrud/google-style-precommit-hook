@@ -1,11 +1,14 @@
+# Google Style Pre-Commit Hook
+
 A handy [pre-commit](http://pre-commit.com/) hook which will run Google's java
 code style formatter for you on your code!
 
-Usage:
+## Usage
 
+Add to your **.pre-commit-hooks.yaml** file:
 ```
 repos:
-- repo: https://github.com/maltzj/google-style-precommit-hook
+- repo: https://github.com/antonrud/google-style-precommit-hook
   sha: b7e9e7fcba4a5aea463e72fe9964c14877bd8130
   hooks:
     - id: google-style-java
